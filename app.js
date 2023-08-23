@@ -25,7 +25,6 @@ const fileUpload = require("express-fileupload");
 const rateLimiter = require('express-rate-limit');
 const helmet = require('helmet');
 const xss = require('xss-clean');
-const cors = require("cors");
 const mongoSanitize = require('express-mongo-sanitize');
 
 // * Cloudinary Upload
